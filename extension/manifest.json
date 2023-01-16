@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "RichPanda",
+    "description": "Un système de pari basé sur un coefficient d'augmentation en cas de perte",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "background": {
+    "service_worker": "/extension/service-worker.js"
+  },
+    "options_ui": {
+        "page": "popup.html"
+        }
+}
